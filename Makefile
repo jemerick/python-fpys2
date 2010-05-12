@@ -42,7 +42,7 @@ debian/changelog:
 
 deb: debian/changelog
 	dpkg-buildpackage -r$(ROOTCMD) -us -uc
-	mv ../python-fpys_* dist/
+	mv ../python-fpys2_* dist/
 
 test: bin/nosetests
 	$(SETUP) test
