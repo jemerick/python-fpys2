@@ -1,0 +1,18 @@
+Source: python-fpys2
+Section: web
+Priority: extra
+Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
+Build-Depends: debhelper (>= 7), cdbs (>= 0.4.59), python-central (>= 0.6.11)
+Standards-Version: 3.8.1
+Homepage: http://github.com/simplegeo/python-fpys2
+XS-Python-Version: 2.6
+
+Package: python-fpys2
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: An Amazon FPS Client for Python
+ FPyS utilizes the REST interface to the Amazon Flexible Payment system
+ to allow Python developers easy access to the Flexible Payment System.
+ The library works out of the box with Python 2.5.  ElementTree is a
+ required install in environments not yet running 2.5.  FPyS is released
+ under the MIT license.
