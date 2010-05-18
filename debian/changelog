@@ -1,5 +1,11 @@
-python-fpys2 (0.5) unstable; urgency=low
+python-fpys2 (0.5.2) unstable; urgency=low
+
+  * Switch to pysupport.
+
+ -- Ian Eure <ian@simplegeo.com>  Tue, 18 May 2010 15:45:36 -0700
+
+python-fpys2 (0.5.1) unstable; urgency=low
 
   * Debianized.
 
- -- Ian Eure <ian@digg.com>  Wed, 12 May 2010 11:21:13 -0700
+ -- Ian Eure <ian@simplegeo.com>  Wed, 12 May 2010 11:21:13 -0700

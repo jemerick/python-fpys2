@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name = "FPyS2",
-      version = "0.5.1",
+      version = "0.5.2",
       description = "Amazon FPS Library (version 2008-09-17)",
       author = "Wade Simmons",
       author_email = "wade@wades.im",
