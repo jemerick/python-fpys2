@@ -42,8 +42,9 @@ debian/changelog:
             --snapshot --snapshot-number=$(BUILD_NUMBER)
 
 deb: debian/changelog
+	test -d dist/deb || mkdir -p dist/deb
 	dpkg-buildpackage -r$(ROOTCMD) -k$(SIGN_KEY)
-	mv ../python-fpys2_* dist/
+	mv ../python-fpys2_* dist/deb
 
 test: bin/nosetests
 	$(SETUP) test
